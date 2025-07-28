@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;  
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #9B6A6C;
+}
+
+.container{
+    background-color:#E2B4BD;
+    width: 50vh;
+    min-height: 45vh;
+    padding: 2rem;
+    border-radius:1rem;
+}
+
+form{
+    margin:2rem 0 1rem 0;
+}
+
+.container:hover{
+    border:0.5vh solid white;
+}
+input,form select,button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input{
+    border: 1px solid #93A8AC;
+    height: 2rem;
+    font-size: 1rem;
+    padding-left: 0.75rem;
+    margin-top: 0.12rem;
+       background-color: #424B54;
+    color: white;
+}
+
+.conversion-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:2rem;
+}
+.select-box img{
+    width: 2rem;
+    height: 2rem
+
+}
+
+.select-box{
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border:1px solid #93A8AC;
+    margin-bottom: 1rem;
+}
+.conversion-box select{
+    background-color: #E2B4BD;
+    font-size: 1.1rem;
+}
+.conversion-box i{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.message{
+    font-size: 1rem;
+    margin:1rem 0 2rem 0;
+}
+button{
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: 2rem;
+    background-color: #424B54;
+    color: white;
+    cursor:pointer;
+    
+}
